@@ -62,7 +62,13 @@
    position: absolute;
    bottom: 0;
    right: 0;
-   /* Something text for conflict */
+
+   width: 1440;
+   
+   
+}
+
+   
 }
 
 
@@ -80,3 +86,4 @@
     height: 503px;
 }
 /* ----------------------------------BLOG----------------------------------------- */
+
