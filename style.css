@@ -1,0 +1,67 @@
+* {
+   box-sizing: border-box;
+}
+
+.btn {
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   -ms-border-radius: 2px;
+   -o-border-radius: 2px;
+}
+
+.header__logo {
+   margin-left: 115px;
+   margin-right: 75px;
+}
+
+/* .navbar{
+   height: 80px !important;
+} */
+.header__icon {
+   margin-left: 35px;
+}
+
+.header__btn {
+   margin-left: 44px;
+   margin-right: 117px;
+   width: 113px;
+   height: 43px;
+   color: #3A79FF !important;
+   background-color: #D2E1FF !important;
+   border: solid 0px !important;
+
+}
+
+/*     hero_image   */
+
+.hero_image{
+   background-color: #D8E0F7;
+}
+.hero_image__slider_dot {
+   border-radius: 50%;
+   height: 10px !important;
+   width: 10px !important;
+   background-color: #5982E7 !important;
+   margin-right: 10px !important;
+}
+/* .active{
+   background-color: #5982E7;
+} */
+.carousel {
+   height: 570px;
+}
+.carousel-item{
+   height: 570px;
+}
+.carousel-inner{
+   position: relative;
+}
+.hero_image_start::after{
+   content:url(/img/hero_image/Vector_line.svg);
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 1440px;
+   
+}
