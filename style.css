@@ -1,0 +1,19 @@
+.blog__pre-title{
+    text-align: center;
+    font-size: 10px;
+}
+.blog__title{
+    text-align: center;
+    font-size: 24px;
+}
+.test{
+    width: 100px;
+    
+}
+
+.blog__slider{
+    height: 503px;
+}
+.blog__slide{
+    border: 1px dotted red;
+}
