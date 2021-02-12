@@ -15,9 +15,9 @@
    margin-right: 75px;
 }
 
-/* .navbar{
-   height: 80px !important;
-} */
+.navbar{
+   min-height: 80px !important;
+}
 .header__icon {
    margin-left: 35px;
 }
