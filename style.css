@@ -89,7 +89,7 @@
    top: 50%;
    transform: translateY(-50%);
    /* border: 1px dotted red; */
-   width: 958px;
+   width: 882px;
    margin: auto;
 }
 .blog__slide-title{
@@ -102,6 +102,9 @@
 
 }
 .blog__slide-left-side{
+   border: 1px dotted red;
+}
+.blog__slide-right-side{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -151,6 +154,11 @@
    -ms-border-radius: 50%;
    -o-border-radius: 50%;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+   width: 30%;
+}
 /* ----------------------------------BLOG----------------------------------------- */
 
 /* вспомогательные */
@@ -158,4 +166,7 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+}
+.borderred{
+   border: 1px dotted red;
 }
