@@ -15,7 +15,7 @@
    margin-right: 75px;
 }
 
-.navbar{
+.header__navbar{
    min-height: 80px !important;
 }
 .header__icon {
@@ -48,10 +48,10 @@
 /* .active{
    background-color: #5982E7;
 } */
-.carousel {
+.hero_image__carousel {
    height: 570px;
 }
-.carousel-item{
+.hero_image__carousel-item{
    height: 570px;
 }
 .carousel-inner{
@@ -65,7 +65,12 @@
    width: 1440;
 }
 
-   
+/* ---------customers--------- */
+
+.customers{
+   min-height: 145px;
+}
+
 
 /* ----------------------------------blog------------------------------------ */
 .blog{

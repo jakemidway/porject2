@@ -16,7 +16,7 @@
    <!-- _____________header__________ -->
 
    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar header__navbar navbar-expand-lg navbar-light bg-light">
          <img src="/img/header/logo.svg" alt="" class="header__logo">
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,15 +51,18 @@
          </div>
       </nav>
    </header>
+
+   <!-- _______________hero_image___________ -->
+
    <div class="hero_image">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide hero_image__carousel" data-ride="carousel">
          <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class=" hero_image__slider_dot active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1" class=" hero_image__slider_dot"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2" class=" hero_image__slider_dot"></li>
          </ol>
          <div class="carousel-inner">
-            <div class="carousel-item active hero_image_start">
+            <div class="carousel-item hero_image__carousel-item active hero_image_start">
                <h3 class="hero_image__subtitle">
                   PLAN YOUR LIFE
                </h3>
@@ -84,12 +87,15 @@
          </a>
       </div>
    </div>
-   <div class="customers row container">
-      <div class="col"><a href=""><img src="/img/customers/bitbucket.svg" alt=""></a></div>
-      <div class="col"><a href=""><img src="/img/customers/watch.svg" alt=""></a></div>
-      <div class="col"><a href=""><img src="/img/customers/facebook.svg" alt=""></a></div>
-      <div class="col"><a href=""><img src="/img/customers/atlassian.svg" alt=""></a></div>
-      <div class="col"><a href=""><img src="/img/customers/audi.svg" alt=""></a></div>
+   
+   <!-- --------------customers_--------------- -->
+
+   <div class="customers row  d-flex justify-content-around align-items-center">
+      <div class="col d-flex justify-content-center"><a href="" class=""><img src="/img/customers/bitbucket.svg" alt=""></a></div>
+      <div class="col d-flex justify-content-center"><a href="" class=""><img src="/img/customers/watch.svg" alt=""></a></div>
+      <div class="col d-flex justify-content-center"><a href="" class=""><img src="/img/customers/facebook.svg" alt=""></a></div>
+      <div class="col d-flex justify-content-center"><a href="" class=""><img src="/img/customers/atlassian.svg" alt=""></a></div>
+      <div class="col d-flex justify-content-center"><a href="" class=""><img src="/img/customers/audi.svg" alt=""></a></div>
    </div>
 
    <!--------- plan_and_manage----------- -->
