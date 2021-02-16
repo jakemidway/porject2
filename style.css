@@ -88,14 +88,16 @@
 .blog__slider{
    position: relative;
    display: flex; 
+   /* height: 503px; */
 }
 .blog__slide{
    position: relative;
-   top: 50%;
-   transform: translateY(-50%);
-   /* border: 1px dotted red; */
+   /* top: 50%; */
+   /* transform: translateY(50%); */
+   /*border: 1px dotted red;*/
    width: 882px;
    margin: auto;
+   padding: 155px 0 175px;
 }
 .blog__slide-title{
    font-size: 36px;
@@ -163,6 +165,16 @@
 .carousel-control-prev,
 .carousel-control-next{
    width: 30%;
+}
+
+ .blog .blog__dotted{
+   background-color: #D1D6E3;
+   opacity: 1;
+}
+
+.blog__dotted.active{
+   background-color: #5283FF;
+
 }
 /* ----------------------------------BLOG----------------------------------------- */
 
