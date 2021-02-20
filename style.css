@@ -17,6 +17,8 @@
 
 .header__navbar {
    min-height: 80px !important;
+   font-size: 12px;
+   line-height: 15px;
 }
 
 .header__icon {
@@ -71,31 +73,37 @@
 
 /* ---------------!!!!---cloud !! !!----------- */
 
-.cloud{
+.cloud {
    position: absolute;
 }
-.cloud__left{
+
+.cloud__left {
    left: 208px;
    top: 69px;
 }
-.cloud__left2{
+
+.cloud__left2 {
    left: 0;
-   top:100px
+   top: 100px
 }
-.cloud__right{
+
+.cloud__right {
    right: 0;
    top: 315px;
    z-index: -1;
 }
-.cloud__grop_right{
+
+.cloud__grop_right {
    right: 160px;
    bottom: 0px;
 }
-.cloud__grop_right2{
-   top:0px;
+
+.cloud__grop_right2 {
+   top: 0px;
    right: 120px;
 }
-.cloud__grop_left{
+
+.cloud__grop_left {
    left: 200px;
    bottom: 100px;
 }
@@ -108,18 +116,22 @@
    margin-top: 90px;
    font-size: 10px;
    margin-bottom: 16px;
+   color: #3D4F9F
 }
 
 .hero_image__title {
    font-size: 60px;
    line-height: 60px !important;
    margin-bottom: 28px;
+   color:  #3D4F9F;
+
 }
 
 .hero_image__content {
    max-width: 500px;
    margin: auto;
    margin-bottom: 20px;
+   color: #8D96BD;
 }
 
 .hero_image__btn {
