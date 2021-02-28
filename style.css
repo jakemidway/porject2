@@ -607,13 +607,18 @@ padding-top: 175px;
 
 .card {
    border: 0;
-   border-bottom: 2px;
-
+   border-bottom: 1px solid #D8E3FE;
+   border-radius: 0 !important;
+   -webkit-border-radius: 0 !important;
+   -moz-border-radius: 0 !important;
+   -ms-border-radius: 0 !important;
+   -o-border-radius: 0 !important;
 }
 .card-header{
    padding-left: 45px !important;
    min-height: 77px;
    height: 100%;
+   border: 0;
 }
 
 .faq__content-btn[aria-expanded="true"]:before {
