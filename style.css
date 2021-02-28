@@ -510,7 +510,7 @@
    z-index: 24;
    display: flex;
    flex-direction: column;
-   background: linear-gradient(90deg, rgba(239, 244, 255, 1) 80%, rgba(125, 185, 232, 0) 150%);
+   background: rgba(239, 244, 255, 0);
    padding-top: 37px;
 }
 
