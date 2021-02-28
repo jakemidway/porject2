@@ -217,26 +217,29 @@
 /*------------------ features------------- */
 .features {
    min-height: 885px;
-   background: url(/img/features/clouds_right.svg)  no-repeat left 94% top 23%, 
-   url(/img/features/clouds_left.svg) no-repeat left 5% top 50%; 
-   
-   
+   background: url(/img/features/clouds_right.svg) no-repeat left 94% top 23%,
+      url(/img/features/clouds_left.svg) no-repeat left 5% top 50%;
+
+
 }
 
-.features__header-subtitle{
-   color:#3D4F9F;
+.features__header-subtitle {
+   color: #3D4F9F;
    font-size: 10px;
 }
-.features__header-title{
-color:#3D4F9F;
-font-size: 32px;
-line-height: 30px;
-margin-top:20px;
-margin-bottom:92px ;
-}
-.features__content{
+
+.features__header-title {
+   color: #3D4F9F;
+   font-size: 32px;
+   line-height: 30px;
+   margin-top: 20px;
    margin-bottom: 92px;
 }
+
+.features__content {
+   margin-bottom: 92px;
+}
+
 .features__content-title {
    margin-top: 33px;
    margin-bottom: 25px;
@@ -260,7 +263,7 @@ margin-bottom:92px ;
    height: 100%;
 }
 
-.features__content-list::after{
+.features__content-list::after {
    display: block;
    width: 28px;
    content: '';
@@ -269,7 +272,8 @@ margin-bottom:92px ;
    top: 50%;
    left: 215px;
 }
-.features__content-list:last-child::after{
+
+.features__content-list:last-child::after {
    display: none;
 }
 
@@ -307,7 +311,7 @@ margin-bottom:92px ;
    position: absolute;
    border-bottom: 2px solid #DAE4FE;
    top: 50%;
-   right:  135px;
+   right: 135px;
 }
 
 .features__footer_text::before {
@@ -333,21 +337,24 @@ margin-bottom:92px ;
 
 .stats__right {
    background-color: #D8E3FE;
-   color:#5E80FF;
+   color: #5E80FF;
 }
-.stats__title{
-font-size: 48px;
-font-weight: 400;
-line-height: 84px;
+
+.stats__title {
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 84px;
 }
-.stats__text{
-font-weight: 500;
-letter-spacing: 0.5px;
-font-size: 18px;
+
+.stats__text {
+   font-weight: 500;
+   letter-spacing: 0.5px;
+   font-size: 18px;
 }
-.stats__img{
+
+.stats__img {
    margin-top: 70px;
-   
+
 }
 
 /* ----------------------------------blog------------------------------------ */
@@ -507,9 +514,7 @@ font-size: 18px;
    padding-top: 37px;
 }
 
-.testimonials__carousel-inner { 
-   
-}
+.testimonials__carousel-inner {}
 
 .testimonials__carousel-inner .carousel-item {
    transition: all 3.6s ease-in-out;
@@ -522,9 +527,10 @@ font-size: 18px;
 /* .testimonials__carousel-indicators {
    bottom: 0;
 } */
-.carousel-item{
+.carousel-item {
    overflow: visible;
 }
+
 .testimonials__slide-text {
    position: relative;
    padding: 42px 69px 53px;
@@ -578,3 +584,82 @@ font-size: 18px;
    background-color: rgb(110, 71, 71);
    border: 1px dotted red;
 }
+
+/* ----------------------faq---------------------- */
+.faq {
+   min-height: 965px;
+   height: 100%;
+}
+
+.faq__subtitle{
+   font-size: 10px;
+   color: #3D4F9F;
+padding-top: 175px;
+   margin-bottom: 20px;
+}
+.faq__title{
+   font-size: 24px;
+   color: #3D4F9F;
+   margin-bottom: 68px;
+   font-weight: 500;
+}
+
+
+.card {
+   border: 0;
+   border-bottom: 2px;
+
+}
+.card-header{
+   padding-left: 45px !important;
+   min-height: 77px;
+   height: 100%;
+}
+
+.faq__content-btn[aria-expanded="true"]:before {
+   content: url(/img/faq/Vector2.svg);
+   position: absolute;
+    left: 15px;
+    top: 29px;
+}
+
+.faq__content-btn[aria-expanded="false"]:before {
+   content: url(/img/faq/Vector1.svg);
+   position: absolute;
+    left: 15px;
+    top: 29px;
+}
+.faq__content-btn[aria-expanded="true"]{
+   color:#495274;
+   font-family: Quicksand-Bold;
+}
+.faq__content-btn[aria-expanded="false"]{
+   font-family: Quicksand-Medium;
+}
+.faq__content-btn{
+   color:#8E96B7 ;
+   font-family: Quicksand-Medium;
+   font-size: 15px;
+   letter-spacing: 0.4px;
+}
+.card-body{
+   color:#8D96BD;
+   line-height: 28px;
+   letter-spacing: 0.4px;
+}
+.card-body__btn{
+   min-height: 43px;
+   height: 100%s;
+   width: 195px;
+   margin: auto;
+   background-color:#E8ECF4;
+   color:#7382A3;
+   border-width:0;
+}
+.btn-link:hover {
+   color: #777d94 !important;
+   text-decoration: none !important;
+}
+.btn:focus {
+   text-decoration: none !important;
+   box-shadow: none !important;}
