@@ -515,7 +515,7 @@
    padding-top: 37px;
 }
 
-.testimonials__carousel-inner {}
+
 
 .testimonials__carousel-inner .carousel-item {
    transition: all 3.6s ease-in-out;
@@ -671,3 +671,41 @@ padding-top: 175px;
 .btn:focus {
    text-decoration: none !important;
    box-shadow: none !important;}
+/* ---------------------get-started---------------- */
+.get-started{
+   color: #fff;
+   background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+   padding: 91px 0;
+   font-size: 15px;
+   line-height: 29px;
+   letter-spacing: 0.03em;
+}
+.get-started__content>.row{
+   margin: 0;
+} 
+.get-started__content{
+   max-width: 730px;
+   margin: auto;
+}
+.get-started__pre-title{
+   font-size: 10px;
+   margin-bottom: 16px;
+}
+.get-started__title{
+   font-size: 48px;
+   font-weight: 300;
+   margin-bottom: 28px;
+}
+.get-started__title span{
+   font-weight: 600;
+}
+.get-started__text{
+   line-height: 28.65px;
+   margin-bottom: 52px;
+}
+.get-started__btn{
+   padding: 13px 15px;
+   font-size: 13px;
+   line-height: 16.25px;
+}
+/* ---------------------get-started---------------- */
