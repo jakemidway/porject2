@@ -674,7 +674,9 @@ padding-top: 175px;
 /* ---------------------get-started---------------- */
 .get-started{
    color: #fff;
-   background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+   background: url(./img/get-started/Group\ 28.png) 95% 192px no-repeat,
+               url(./img/get-started/Group\ 28.1.png) 10% 62px  no-repeat,
+               linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
    padding: 91px 0;
    font-size: 15px;
    line-height: 29px;
@@ -701,7 +703,7 @@ padding-top: 175px;
 }
 .get-started__text{
    line-height: 28.65px;
-   margin-bottom: 52px;
+   margin-bottom: 72px;
 }
 .get-started__btn{
    padding: 13px 15px;
