@@ -20,7 +20,7 @@
    height: 43px;
    color: #3A79FF !important;
    background-color: #D2E1FF !important;
-   border: solid 0px !important;
+   border: solid 0 !important;
 
 }
 
@@ -85,11 +85,11 @@
 
 .cloud__grop_right {
    right: 160px;
-   bottom: 0px;
+   bottom: 0;
 }
 
 .cloud__grop_right2 {
-   top: 0px;
+   top: 0;
    right: 120px;
 }
 
@@ -119,8 +119,7 @@
 
 .hero_image__content {
    max-width: 500px;
-   margin: auto;
-   margin-bottom: 20px;
+   margin: 0 auto 20px;
    color: #8D96BD;
 }
 
@@ -247,12 +246,12 @@
    color: #4074F8;
    font-size: 14px;
    line-height: 25px;
-   font-family: OpenSans-Bold;
+   font-family: OpenSans-Bold, sans-serif;
 }
 
 .features__content-text {
    color: #ADB3CB;
-   font-family: OpenSans-SemiBold;
+   font-family: OpenSans-SemiBold,sans-serif;
    font-size: 11px;
    max-width: 145px;
    width: 100%;
@@ -281,7 +280,7 @@
 .features--btn {
    width: 113px;
    min-height: 43px;
-   font-family: Quicksand-Bold;
+   font-family: Quicksand-Bold, sans-serif;
    font-size: 13px;
 }
 
@@ -302,7 +301,7 @@
    margin-right: 48px;
    color: #ADB3CB;
    font-size: 11px;
-   font-family: OpenSans-Bold;
+   font-family: OpenSans-Bold, sans-serif;
 }
 
 .features__footer_text::after {
@@ -328,7 +327,7 @@
 /* -----------------------stats------------- */
 .stats {
    min-height: 340px;
-   font-family: Quicksand-Regular;
+   font-family: Quicksand-Regular, sans-serif;
 }
 
 .stats__left {
@@ -478,7 +477,7 @@
 
 .testimonials {
    overflow: hidden;
-   font-family: 'Roboto-Regular';
+   font-family: 'Roboto-Regular', sans-serif;
    position: relative;
    padding: 109px 0;
    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
@@ -639,14 +638,14 @@ padding-top: 175px;
 }
 .faq__content-btn[aria-expanded="true"]{
    color:#495274;
-   font-family: Quicksand-Bold;
+   font-family: Quicksand-Bold, sans-serif;
 }
 .faq__content-btn[aria-expanded="false"]{
-   font-family: Quicksand-Medium;
+   font-family: Quicksand-Medium, sans-serif;
 }
 .faq__content-btn{
    color:#8E96B7 ;
-   font-family: Quicksand-Medium;
+   font-family: Quicksand-Medium, sans-serif;
    font-size: 15px;
    letter-spacing: 0.4px;
 }
@@ -657,7 +656,7 @@ padding-top: 175px;
 }
 .card-body__btn{
    min-height: 43px;
-   height: 100%s;
+   height: 100%;
    width: 195px;
    margin: auto;
    background-color:#E8ECF4;
@@ -674,8 +673,8 @@ padding-top: 175px;
 /* ---------------------get-started---------------- */
 .get-started{
    color: #fff;
-   background: url(./img/get-started/Group\ 28.png) 95% 192px no-repeat,
-               url(./img/get-started/Group\ 28.1.png) 10% 62px  no-repeat,
+   background: url(./img/get-started/Group28.png) 95% 192px no-repeat,
+               url(./img/get-started/Group281.png) 10% 62px  no-repeat,
                linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
    padding: 91px 0;
    font-size: 15px;

@@ -1,54 +1,54 @@
 @font-face{
    font-family:OpenSans-Bold;
-   src:url(/assets/fonts/OpenSans-Bold.ttf)
+   src:url(./assets/fonts/OpenSans-Bold.ttf);
 }
 @font-face{
    font-family:OpenSans-SemiBold;
-   src:url(/assets/fonts/OpenSans-SemiBold.ttf)
+   src:url(./assets/fonts/OpenSans-SemiBold.ttf);
 }
 @font-face{
    font-family:Quicksand-Bold;
-   src:url(/assets/fonts/Quicksand-Bold.ttf)
+   src:url(./assets/fonts/Quicksand-Bold.ttf);
 }
 @font-face{
    font-family:Quicksand-Medium;
-   src:url(/assets/fonts/Quicksand-Medium.ttf)
+   src:url(./assets/fonts/Quicksand-Medium.ttf);
 }
 @font-face{
    font-family:Quicksand-Regular;
-   src:url(/assets/fonts/Quicksand-Regular.ttf)
+   src:url(./assets/fonts/Quicksand-Regular.ttf);
 }
 @font-face{
    font-family:Roboto-Medium;
-   src:url(/assets/fonts/Roboto-Medium.ttf)
+   src:url(./assets/fonts/Roboto-Medium.ttf);
 }
 @font-face{
    font-family:Roboto-Regular;
-   src:url(/assets/fonts/Roboto-Regular.ttf)
+   src:url(./assets/fonts/Roboto-Regular.ttf);
 }
 
 /* ----------классы для текстов ---------  */
 
 .text--op_bold{
-   font-family: OpenSans-Bold;
+   font-family: OpenSans-Bold, sans-serif;
 }
 .text--op_se_bold{
-   font-family: OpenSans-SemiBold;
+   font-family: OpenSans-SemiBold, sans-serif;
 }
 .text--qu_bold{
-   font-family: Quicksand-Bold;
+   font-family: Quicksand-Bold, sans-serif;
 }
 .text--qu_medium{
-   font-family: Quicksand-Medium;
+   font-family: Quicksand-Medium, sans-serif;
 }
 .text--qu_regular{
-   font-family: Quicksand-Regular;
+   font-family: Quicksand-Regular, sans-serif;
 }
 .text--rob_medium{
-   font-family:Roboto-Medium;
+   font-family:Roboto-Medium, sans-serif;
 }
 .text--rob_regular{
-   font-family:Roboto-Regular;
+   font-family:Roboto-Regular, sans-serif;
    font-weight: 400;
 }
 
