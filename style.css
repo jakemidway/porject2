@@ -731,4 +731,13 @@ padding-top: 175px;
 }
 
 
+/*-------------------------------- footer --------------------*/
+footer{
+   border: 1px solid;
+}
+footer div{
+   /*border: 1px solid red;*/
+}
+
+
 /* ---------------------sing-up end--------------- */
