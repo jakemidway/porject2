@@ -733,11 +733,46 @@ padding-top: 175px;
 
 /*-------------------------------- footer --------------------*/
 footer{
-   border: 1px solid;
+   /*border: 1px solid;*/
+   padding: 93px 112px;
+   font-size: 12px;
+   line-height: 15px;
 }
+.footer__nav a{
+   color: #697CA6;
+}
+
 footer div{
    /*border: 1px solid red;*/
 }
+.copyright{
+   padding-left: 86px;
+   color: #AEB8D0;
+;
+}
 
 
-/* ---------------------sing-up end--------------- */
+@media (max-width: 575.98px) {  }
+
+/*Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) {
+
+}
+
+/* Средние девайсы («таблетки», < 992px)*/
+@media (max-width: 991.98px) {
+   footer{
+      padding: 93px 0;
+   }
+   .footer__logo{
+      display: none;
+   }
+   .copyright{
+      padding: 0;
+      text-align: center;
+   }
+
+}
+
+/* Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {  }

@@ -593,14 +593,14 @@
 
    <footer>
         <div class="container-fluid">
-           <div class="row justify-content-between">
+           <div class="row justify-content-between align-items-center mb-4">
               <div class="col-auto">
                  <div class="row">
-                    <div class="col-auto align-middle">
-                       <img src="./img/header/logo.png" alt="logo">
+                    <div class="col-auto align-self-center">
+                       <img  class="footer__logo" src="./img/header/logo.png" alt="logo">
                     </div>
                     <div class="col">
-                       <ul class="nav">
+                       <ul class="nav flex-column flex-xl-row footer__nav">
                           <li class="nav-item">
                              <a class="nav-link" href="#">Home</a>
                           </li>
@@ -620,7 +620,20 @@
                     </div>
                  </div>
               </div>
-              <div class="col-auto">col2</div>
+              <div class="col-auto">
+                 <div class="form-inline my-2 my-lg-0">
+                    <a href="#" class="nav-link__icon"><img src="./img/header/F_icon_reversed.svg" alt="" class="header__icon"></a>
+                    <a href="#" class="nav-link__icon"><img src="./img/header/Telegram_logo.svg" alt="" class="header__icon"></a>
+                    <a href="#" class="nav-link__icon"><img src="./img/header/Group 7.svg" alt="" class="header__icon"></a>
+                    <a href="#" class="nav-link__icon"><img src="./img/header/Medium_icon.svg" alt="" class="header__icon"></a>
+                    <button class="btn btn-outline-success my-2 my-sm-0 header__btn " type="submit">Get started</button>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <div class="col copyright">
+                 <p>Copyright © 2018 by Random site</p>
+              </div>
            </div>
         </div>
    </footer>
