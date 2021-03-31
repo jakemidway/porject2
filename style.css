@@ -714,7 +714,9 @@ padding-top: 175px;
 
 /* ---------------------sing-up------------------- */
 .sing-up{
+   background-color: #FCFDFF;
    padding: 118px 0;
+   border-bottom: 1px solid #D8E3FE;
 }
 .sing-up__title{
    font-weight: 700;
