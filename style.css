@@ -713,8 +713,8 @@ padding-top: 175px;
 /* ---------------------get-started----------------*/
 
 /* ---------------------sing-up------------------- */
-.sing-up>.row{
-   margin: 0;
+.sing-up{
+   padding: 118px 0;
 }
 .sing-up__title{
    font-weight: 700;
@@ -727,7 +727,21 @@ padding-top: 175px;
    line-height: 27px;
    letter-spacing: 0.03em;
    color: #8D96BD;
-   opacity: 0.31;
+   opacity: 0.7;
+}
+.sing-up .input-group,
+.sing-up .input-group input{
+   height: 60px;
+}
+.sing-up .input-group > .form-control {
+
+   border-radius: 4px !important;
+}
+.sing-up .input-group > .input-group-append >.sing-up__btn {
+   background-color: #4D6CE1;
+   color: #fff;
+   border-radius: 4px;
+   width: 184px;
 }
 
 
