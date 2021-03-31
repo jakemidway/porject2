@@ -597,7 +597,7 @@
 .faq__subtitle{
    font-size: 10px;
    color: #3D4F9F;
-padding-top: 175px;
+   padding-top: 175px;
    margin-bottom: 20px;
 }
 .faq__title{
@@ -625,14 +625,14 @@ padding-top: 175px;
 }
 
 .faq__content-btn[aria-expanded="true"]:before {
-   content: url(/img/faq/Vector2.svg);
+   content: url(./img/faq/Vector2.svg);
    position: absolute;
     left: 15px;
     top: 29px;
 }
 
 .faq__content-btn[aria-expanded="false"]:before {
-   content: url(/img/faq/Vector1.svg);
+   content: url(./img/faq/Vector1.svg);
    position: absolute;
     left: 15px;
     top: 29px;
@@ -671,6 +671,9 @@ padding-top: 175px;
 .btn:focus {
    text-decoration: none !important;
    box-shadow: none !important;}
+
+
+
 /* ---------------------get-started---------------- */
 .get-started{
    color: #fff;
