@@ -741,14 +741,19 @@ footer{
 .footer__nav a{
    color: #697CA6;
 }
-
-footer div{
-   /*border: 1px solid red;*/
+.footer__soc-ico{
+   margin-right: 34px;
+}
+.footer__btn{
+   color: #3A79FF;
+   background-color: #D2E1FF;
+}
+.border{
+   border: 1px solid red;
 }
 .copyright{
    padding-left: 86px;
    color: #AEB8D0;
-;
 }
 
 
