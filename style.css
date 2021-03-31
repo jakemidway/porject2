@@ -656,8 +656,8 @@
    letter-spacing: 0.4px;
 }
 .card-body__btn{
-   min-height: 43px;
-   height: 100%;
+   height: 43px;
+   /*height: 100%;*/
    width: 195px;
    margin: auto;
    background-color:#E8ECF4;
