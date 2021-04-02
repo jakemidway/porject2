@@ -792,7 +792,9 @@ footer{
 
 /* Средние девайсы («таблетки», < 992px)*/
 @media (max-width: 991.98px) {
-
+   .blog__slide{
+      width: auto;
+   }
 
    footer{
       padding: 93px 0;
