@@ -792,6 +792,8 @@ footer{
 
 /* Средние девайсы («таблетки», < 992px)*/
 @media (max-width: 991.98px) {
+
+
    footer{
       padding: 93px 0;
    }
@@ -806,4 +808,11 @@ footer{
 }
 
 /* Большие девайсы (большие десктопы, < 1200px)*/
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) {
+   .blog__carousel-control-prev-icon {
+      background-image: none;
+   }
+   .blog__carousel-control-next-icon {
+      background-image: none;
+   }
+}
