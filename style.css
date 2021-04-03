@@ -536,8 +536,13 @@
    bottom: 0;
 } */
 
-
-
+.testimonials .testimonials__dotted {
+   background-color: #D1D6E3;
+   opacity: 1;
+}
+.testimonials__dotted.active {
+   background-color: #5283FF;
+}
 
 .testimonials__slide-text {
    position: relative;
