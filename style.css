@@ -158,17 +158,18 @@
 
 .plan_and_manage {
    background: #F5F8FF;
-   min-height: 776px;
-   background-image: url(/img/plan_and_manage/illustration.svg);
+   height: 776px;
+   background-image: url(./img/plan_and_manage/illustrationХ2.png);
    background-repeat: no-repeat;
-   background-position: left 104% top 335%;
+   background-size: 50%;
+   background-position: right 132px;
    margin: 0;
    padding: 0;
 
 }
 
 .plan_and_manage__content {
-   padding-left: 70px !important;
+   /*padding-left: 70px !important;*/
 }
 
 .plan_and_manage__subtitle {
@@ -798,7 +799,12 @@ footer{
 }
 
 
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+    .plan_and_manage{
+        height: 560px;
+        background-position: right 26px;
+    }
+}
 
 /*Малые девайсы («ландшафтные», < 768px)*/
 @media (max-width: 767.98px) {
