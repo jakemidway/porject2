@@ -153,6 +153,9 @@
 .customers {
    min-height: 145px;
 }
+.customers .container{
+   padding: 0 78px;
+}
 
 /*--------- plan_and_manage------------ */
 
@@ -832,10 +835,14 @@ footer{
 
 /* Большие девайсы (большие десктопы, < 1200px)*/
 @media (max-width: 1199.98px) {
+   .customers .container{
+      padding: 0;
+   }
    .blog__carousel-control-prev-icon {
       background-image: none;
    }
    .blog__carousel-control-next-icon {
       background-image: none;
    }
+
 }
