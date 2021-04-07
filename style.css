@@ -53,7 +53,7 @@
 
 .hero_image_start {
    position: relative;
-   background-image: url(/img/hero_image/chart.svg);
+   background-image: url(./img/hero_image/chart.svg);
    background-position: center bottom;
    background-repeat: no-repeat;
    background-size: 100vw;
@@ -102,6 +102,12 @@
 
 /* ---------------____cloud_____------------ */
 
+.hero_image__svg{
+   position: absolute;
+   /*bottom: 0;*/
+   /*width: 100%;*/
+
+}
 
 .hero_image__subtitle {
    margin-top: 90px;
@@ -222,8 +228,8 @@
 /*------------------ features------------- */
 .features {
    min-height: 885px;
-   background: url(/img/features/clouds_right.svg) no-repeat left 94% top 23%,
-      url(/img/features/clouds_left.svg) no-repeat left 5% top 50%;
+   background: url(./img/features/clouds_right.svg) no-repeat left 94% top 23%,
+      url(./img/features/clouds_left.svg) no-repeat left 5% top 50%;
 
 
 }
